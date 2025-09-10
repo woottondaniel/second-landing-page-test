@@ -119,6 +119,8 @@ header .pages a {
     justify-content: center;
     width: 100%;
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
 }
 
 
@@ -151,4 +153,44 @@ header .pages a {
     border: 1px solid #F9F5F5;
     display: block;
     object-fit: cover;
+}
+
+/*section 3*/
+
+.section-three {
+    padding-top: 48px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F5F5;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.section-three h1 {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.section-three .quote {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    margin: auto;
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #800000;
+    border-radius: 8px;
+    background-color: #a05e5e;
+    color: #F9F5F5;
+    padding: 0 24px;
+}
+
+.section-three .quote .attr {
+    margin-left: auto;
+    padding-right: 16px;
 }
