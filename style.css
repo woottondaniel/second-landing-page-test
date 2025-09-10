@@ -242,3 +242,18 @@ header .pages a {
 .section-four .cta .button:hover a {
   color: #F9F5F5;
 }
+
+/*footer*/
+
+footer {
+    background-color: #800000;
+    color: #F9F5F5;
+    font-size: x-small;
+    text-align: center;
+    display: block;
+    padding-bottom: 16px;
+}
+
+footer p {
+    margin: 0;
+}
